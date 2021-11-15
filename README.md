@@ -1,1 +1,1 @@
-# Install-C-in-msys2
+# msys2  Install C++ libary
