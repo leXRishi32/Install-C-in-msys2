@@ -1,0 +1,16 @@
+pacman -Syu             //packaeg update
+                       // [y/n]   //Ente r y
+                      // open in windows MSYS2 MSYS 
+pacman -Su           //Update rest of the base packages 
+                      //install GCC
+                    //search c++ and c 
+pacman -S mingw-w64-x86_64-gcc
+                     //[y/n]  Enter y
+gcc version          // gcc --version
+g++ version          // g++ --version
+gdb version         // gdb --version
+
+pacman -S mingw-w64-x86_64-gdb  // install the debugger ( gdb ) for C and C++
+
+//after that go to setting  coppy C:\msys64\mingw64\bin
+// Edit environment variables add path and press OK
